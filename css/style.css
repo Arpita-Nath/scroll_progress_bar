@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.heading{
+    background: radial-gradient(circle, rgba(187,83,129,1) 0%, rgba(39,31,51,1) 100%);
+}
+h1{
+    font-size: 15vmin;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 33px;
+    color: #fff;
+}
+h3{
+    font-size: 8vmin;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 33px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.paras{
+    background-image: url(../images/bg.jpg);
+}
+p{
+    font-size: 4vmin;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    padding-top: 30px;
+    text-align: justify;
+}
+.progress{
+    height: 65px;
+    width: 65px;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+
+.circle{
+    height: calc(100% - 25px);
+    width: calc(100% - 25px);
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #003049;
+    font-size: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
